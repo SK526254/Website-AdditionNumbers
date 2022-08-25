@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div>Enter two numbers to add</div>
+<input type="number" name="FirstNumber"  id="input1" class="input">
+<input type="number" name="SecondNumber"   id="input2" class="input">
+<div class="centerDiv">The result is</div>
+<div class="result centerDiv"></div>
+<button id="submit">Add</button>    
+<script src="index.js"></script>
+</body>
+</html>
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>elapsed time demo</title>
+    <script type="text/javascript">
+        var time0;
+        function initTime() {
+            time0 = new Date();
+            window.setInterval("updateTime()", 1000);
+        }
+        function updateTime() {
+            // var timeNow = new Date();
+            // var deltas = (Number(timeNow) - Number(time0))/1000;
+            // var deltah = ("0"+String(Math.round(deltas / 3600))).substr(-2);
+            // deltah = deltah.substr(-2);
+            // deltas %= 3600;
+            // var deltam = ("0"+String(Math.round(deltas / 60))).substr(-2);
+            // deltas = ("0"+String(Math.round(deltas % 60))).substr(-2);
+            // document.getElementById("timedisplay").firstChild.data=deltah+":"+deltam+":"+deltas;
+            d=new Date();
+            document.getElementById("timedisplay").innerText= d;
+
+        }
+    </script>
+</head>
+<body onload="initTime();">
+    <div> elapsed time <span id="timedisplay">00:00:00</span></div>
+</body>
+</html> -->
